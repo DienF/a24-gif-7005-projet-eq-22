@@ -498,8 +498,8 @@ if __name__ == "__main__":
     np.random.seed(1)
     # Répertoire des vidéos originales et manipulées
     dataset_dir: Path = pathlib.Path('/kaggle/input/deep-fake-detection-dfd-entire-original-dataset')
-    original_videos: Path = dataset_dir / "DFD_original sequences"
-    manipulated_videos: Path = dataset_dir / "DFD_manipulated_sequences/DFD_manipulated_sequences"
+    original_videos: Path = dataset_dir / "DFD_original_sequences"
+    manipulated_videos: Path = dataset_dir / "DFD_manipulated_sequences"
     # Comptage des vidéos dans chaque répertoire
     num_original_videos: int = len(list(original_videos.glob("*.mp4")))
     num_manipulated_videos: int = len(list(manipulated_videos.glob("*.mp4")))

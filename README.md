@@ -14,3 +14,8 @@ Le modèle approprié pour l’analyse d’images est celui des réseaux de neur
 
 Le jeu de données utilisé est disponible sur [Kaggle](https://www.kaggle.com/datasets/sanikatiwarekar/deep-fake-detection-dfd-entire-original-dataset?select=DFD_manipulated_sequences). Il s’agit de deux dossiers : l’un contenant des vidéos concentrés sur le visage d’une personne sans aucun montage ni trucage, et l’autre contenant plusieurs versions de ces mêmes vidéos avec un visage auquel on a appliqué le *deepfake* d’un autre visage.
 Le jeu de données possède au total 3432 fichiers, dont 364 vidéos non-modifiés et 3068 variantes modifiées. Ce sera à nous de juger si le modèle nécessitera et aura des performances satisfaisantes en utilisant toutes les vidéos à notre disposition ou non.
+
+## Approches
+
+- VGG16LSTM
+- AlexNetLSTM

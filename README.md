@@ -17,5 +17,5 @@ Le jeu de données possède au total 3432 fichiers, dont 364 vidéos non-modifi�
 
 ## Approches
 
-- VGG16LSTM
+- VGG16LSTM (basé sur [ce notebook](https://www.kaggle.com/code/selsabeela/deepfake-vgg-16-last-version))
 - AlexNetLSTM
